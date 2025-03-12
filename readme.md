@@ -64,9 +64,9 @@ docker run --gpus all ..."
 ### RAG
 
 ```bash
-curl -X POST http://localhost:1112/serve \
+curl -X POST http://localhost:30000/serve \
   -H "Content-Type: application/json" \
-  -d '{"question": "LLM의 추론 시간 자기 개선에 대해 설명해주세요.", "stream": false}'
+  -d '{"question": "LLM의 추론 시간 자기 개선에 대해 설명해주세요.", "stream": False}'
 ```
 
 ## Configuration
