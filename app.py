@@ -6,7 +6,6 @@ from bs4 import BeautifulSoup
 from argparse import ArgumentParser
 
 import os
-import sys
 import sglang as sgl
 import chromadb
 import PyPDF2
